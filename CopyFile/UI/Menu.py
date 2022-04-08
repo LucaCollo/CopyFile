@@ -1,10 +1,3 @@
-"""
-Programador: Luca Collo Rompais
-Empresa: UIA
-Fecha:
-Descripcion: el siguiente archivo es un modulo de Python que contiene un menú con varias opciones
-"""
-
 #Menú principal
 import time
 import logic.Manejo_bitacora as mb
