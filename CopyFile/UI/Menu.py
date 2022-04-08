@@ -7,14 +7,14 @@ Descripcion: el siguiente archivo es un modulo de Python que contiene un menú c
 
 #Menú principal
 import time
-import logic.Manejo_archivos as ma
+import logic.Manejo_bitacora as mb
 import dl.Registro_info as ri
 
 def escogerOpcion():
     print("-----------------------------------------")
     print("1. Programar el traslado de archivo")
-    print("2. Configuración de filtrado")
-    print("3. Ver la bitácora")
+    print("2. Ver la bitácora")
+    print("3. Borrar bitácora")
     print("0. Salir del programa")
     opcion = int(input("Escoja una opción:"))
     return opcion
@@ -30,11 +30,11 @@ def activarOpcion():
                 activarOpcion()
                 break
             elif(opcionMenu == 2):
-                ma.filtrarArchivos()
+                mb.verBitacora()#ya lo pude hacer, solo que se imprime un toque raro
                 activarOpcion()
                 break
             elif(opcionMenu == 3):
-                ma.verBitacora()#ya lo pude hacer, solo que se imprime un toque raro
+                mb.borrarBitacora()
                 activarOpcion()
                 break
             elif(opcionMenu == 0):
