@@ -1,13 +1,16 @@
 #Menú principal
 import time
 import logic.Manejo_bitacora as mb
-import dl.Registro_info as ri
+import dl.Traslado_doc as li
+import dl.Configuracion as conf
 
 def escogerOpcion():
     print("-----------------------------------------")
-    print("1. Programar el traslado de archivo")
+    print("1. Trasladar archivos")
     print("2. Ver la bitácora")
     print("3. Borrar bitácora")
+    print("4. Ver configuración")
+    print("5. Borrar configuración")
     print("0. Salir del programa")
     opcion = int(input("Escoja una opción:"))
     return opcion
@@ -19,7 +22,7 @@ def activarOpcion():
     while not salir:
         try:
             if(opcionMenu == 1):
-                ri.guardarTarea()
+                li.establecerDatos()
                 activarOpcion()
                 break
             elif(opcionMenu == 2):
@@ -28,6 +31,14 @@ def activarOpcion():
                 break
             elif(opcionMenu == 3):
                 mb.borrarBitacora()
+                activarOpcion()
+                break
+            elif(opcionMenu == 4):
+                conf.verConf()
+                activarOpcion()
+                break
+            elif(opcionMenu == 5):
+                conf.borrarConf()
                 activarOpcion()
                 break
             elif(opcionMenu == 0):
@@ -43,7 +54,7 @@ def activarOpcion():
             print("Opción incorrecta")
     
 
-#Métodos
+#Salir del programa
 def fin():
     print("¡Gracias por haber usado nuestro programa!")
     time.sleep(2)
