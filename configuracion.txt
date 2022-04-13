@@ -1,0 +1,7 @@
+Lote=1
+Origen=C:\Users\lucac\Desktop\UIA\UIA - Progra 2\CopyFilePrueba\Carpeta1
+Destino=C:\Users\lucac\Desktop\UIA\UIA - Progra 2\CopyFilePrueba\Carpeta2
+CopyFiles=.txt,.xlsx
+MoveFiles=.docx
+Temporizador=5.0
+IndBitacora=S
