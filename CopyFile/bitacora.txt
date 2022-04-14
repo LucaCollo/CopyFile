@@ -1,11 +1,24 @@
 
-Lote#1 (11-04-2022 16:26:38)  
+
+Lote#1 (14-04-2022 12:35:20)  
  Carpeta origen: 
  Ruta: C:\Users\lucac\Desktop\UIA\UIA - Progra 2\CopyFilePrueba\Carpeta1  
- Lista de archivos: ['prueba1.txt', 'prueba2.txt', 'prueba4.xlsx'] 
+ Lista de archivos: ['2.xlsx', '3.txt', '4.txt'] 
  Carpeta destino: 
  Ruta: C:\Users\lucac\Desktop\UIA\UIA - Progra 2\CopyFilePrueba\Carpeta2  
- Lista de archivos: ['prueba1.txt', 'prueba2.txt', 'prueba3.docx', 'prueba4.xlsx'] 
+ Lista de archivos: ['1.docx', '2.xlsx', '3.txt', '4.txt'] 
+ Tipos de archivos a copiar: ['.txt', '.xlsx'] 
+ Tipos de archivos a trasladar: ['.docx'] 
+ Tiempo hasta que se realice la tarea: 5.0 segundos 
+ Indicador bitácora: S
+
+Lote#1 (14-04-2022 12:38:26)  
+ Carpeta origen: 
+ Ruta: C:\Users\lucac\Desktop\UIA\UIA - Progra 2\CopyFilePrueba\Carpeta1  
+ Lista de archivos: ['1.docx', '2.xlsx', '3.txt', '4.txt'] 
+ Carpeta destino: 
+ Ruta: C:\Users\lucac\Desktop\UIA\UIA - Progra 2\CopyFilePrueba\Carpeta2  
+ Lista de archivos: [] 
  Tipos de archivos a copiar: ['.txt', '.xlsx'] 
  Tipos de archivos a trasladar: ['.docx'] 
  Tiempo hasta que se realice la tarea: 5.0 segundos 

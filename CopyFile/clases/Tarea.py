@@ -90,10 +90,10 @@ class Tarea():  #Tarea y Carpeta tienen una relación de asociación debido a qu
 
      # Método str
     def __str__(self):
-        return f"\nLote#{self.idLote} ({self.fechaCreacion})  \n Carpeta origen: {self.carpetaOrigen} \n Carpeta destino: {self.carpetaDestino} \n Tipos de archivos a copiar: {self.tipoArchivosCopy} \n Tipos de archivos a trasladar: {self.tipoArchivosMove} \n Tiempo hasta que se realice la tarea: {self.temporizador} segundos \n Indicador bitácora: {self.indBitacora}"
+        return f"\n\nLote#{self.idLote} ({self.fechaCreacion})  \n Carpeta origen: {self.carpetaOrigen} \n Carpeta destino: {self.carpetaDestino} \n Tipos de archivos a copiar: {self.tipoArchivosCopy} \n Tipos de archivos a trasladar: {self.tipoArchivosMove} \n Tiempo hasta que se realice la tarea: {self.temporizador} segundos \n Indicador bitácora: {self.indBitacora}"
 
     # Método repr -> igual que str pero sirve para mostrar la info de un objeto al agregarlo a un arreglo. Sino solo se muestra el id del objeto
     def __repr__(self):
-        return f"\nLote#{self.idLote} ({self.fechaCreacion})  \n Carpeta origen: {self.carpetaOrigen} \n Carpeta destino: {self.carpetaDestino} \n Tipos de archivos a copiar: {self.tipoArchivosCopy} \n Tipos de archivos a trasladar: {self.tipoArchivosMove} \n Tiempo hasta que se realice la tarea: {self.temporizador} segundos \n Indicador bitácora: {self.indBitacora}"
+        return f"\n\nLote#{self.idLote} ({self.fechaCreacion})  \n Carpeta origen: {self.carpetaOrigen} \n Carpeta destino: {self.carpetaDestino} \n Tipos de archivos a copiar: {self.tipoArchivosCopy} \n Tipos de archivos a trasladar: {self.tipoArchivosMove} \n Tiempo hasta que se realice la tarea: {self.temporizador} segundos \n Indicador bitácora: {self.indBitacora}"
         
 

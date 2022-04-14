@@ -1,8 +1,8 @@
 #Menú principal
 import time
-import logic.Manejo_bitacora as mb
-import dl.Traslado_doc as li
-import dl.Configuracion as conf
+import dl.Manejo_bitacora as mb
+import logic.Traslado_doc as li
+import dl.Manejo_configuracion as conf
 
 def escogerOpcion():
     print("-----------------------------------------")
@@ -26,7 +26,7 @@ def activarOpcion():
                 activarOpcion()
                 break
             elif(opcionMenu == 2):
-                mb.verBitacora()#ya lo pude hacer, solo que se imprime un toque raro
+                mb.verBitacora()
                 activarOpcion()
                 break
             elif(opcionMenu == 3):
