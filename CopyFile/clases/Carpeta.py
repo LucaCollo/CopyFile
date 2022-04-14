@@ -1,10 +1,11 @@
 
 # Esta clase define el estado y el comportamiento de una carpeta
 class Carpeta:
-
+    # Atributos de instancia
+    rutaCarpeta = ""
+    listaArchivos = ""
     # Método constructor
     def __init__(self, rutaCarpeta,listaArchivos):#
-        # Atributos de instancia
         self.rutaCarpeta = rutaCarpeta
         self.listaNomArchivos = listaArchivos
 
