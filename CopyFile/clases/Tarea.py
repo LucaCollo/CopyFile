@@ -1,7 +1,7 @@
 from clases.Carpeta import Carpeta
 
 # Esta clase define el estado y el comportamiento de una tarea
-class Tarea(Carpeta):  #Tarea y Carpeta tienen una relación de asociación debido a que Tarea necesita a Carpeta sin embargo no existe ninguna relación de suboordinación por parte de Carpeta. (https://virtual.itca.edu.sv/Mediadores/ads/213_tipos_de_relaciones.html)
+class Tarea():  #Tarea y Carpeta tienen una relación de asociación debido a que Tarea necesita a Carpeta sin embargo no existe ninguna relación de suboordinación por parte de Carpeta. (https://virtual.itca.edu.sv/Mediadores/ads/213_tipos_de_relaciones.html)
 
     # Método constructor
     def __init__(self, idLote, fechaCreacion, carpetaOrigen, carpetaDestino, tipoArchivosCopy, tipoArchivosMove, temporizador, indBitacora): #Atributos
